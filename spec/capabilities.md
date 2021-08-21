@@ -1,6 +1,6 @@
 # GTFS-capabilities
 
-### Goals
+## Goals
 
 Describes the additional capabilities that a service may be able to provide to serve people with disabilities and those who have mobility devices.
 
@@ -10,11 +10,11 @@ GTFS-capabilities builds upon previously developed extension proposals to provid
 * Vehicle information, described by the (further extended) [GTFS-VehicleCategories](https://docs.google.com/document/d/156RiBjI6FnWJvO8_XWX11Q9nLdOiBdS_rilA-oamlv8/edit#heading=h.tosuo6e9e0z7) specification. See also the [GTFS-seats](bit.ly/gtfs-seats) draft extension.
 * A focus on describing vehicle amenities related to mobility devices, and how boarding with those devices affects capacity for other riders and devices.
 
-### Requirements
+## Requirements
 
 **GTFS-VehiclesCategories**. Optionally, **GTFS-VehicleAllocations** may be used to associate multiple vehicle categories with routes.
 
-### Files extended or added
+## Files extended or added
 
 <table>
   <tr>
@@ -107,9 +107,9 @@ GTFS-capabilities builds upon previously developed extension proposals to provid
   </tr>
 </table>
 
-### File Definitions
+## File Definitions
 
-#### routes.txt (file extended)
+### routes.txt (file extended)
 
 <table>
   <tr>
@@ -126,7 +126,7 @@ GTFS-capabilities builds upon previously developed extension proposals to provid
   </tr>
 </table>
 
-#### trips.txt (file extended)
+### trips.txt (file extended)
 
 <table>
   <tr>
@@ -143,7 +143,7 @@ GTFS-capabilities builds upon previously developed extension proposals to provid
   </tr>
 </table>
 
-#### stop_times.txt (file extended)
+### stop_times.txt (file extended)
 
 <table>
   <tr>
@@ -160,7 +160,7 @@ GTFS-capabilities builds upon previously developed extension proposals to provid
   </tr>
 </table>
 
-#### capabilities.txt (file added)
+### capabilities.txt (file added)
 
 <table>
   <tr>
@@ -217,7 +217,7 @@ GTFS-capabilities builds upon previously developed extension proposals to provid
   </tr>
 </table>
 
-#### vehicle_categories.txt (file extended)
+### vehicle_categories.txt (file extended)
 
 <table>
   <tr>
@@ -309,7 +309,7 @@ belts</code>
   </tr>
 </table>
 
-#### mobility_device_spaces.txt (file added)
+### mobility_device_spaces.txt (file added)
 
 <table>
   <tr>
@@ -402,7 +402,7 @@ belts</code>
   </tr>
 </table>
 
-#### seat_displacements.txt (optional file, added)
+### seat_displacements.txt (optional file, added)
 
 <table>
   <tr>
@@ -425,7 +425,7 @@ belts</code>
   </tr>
 </table>
 
-#### seat.txt (file extended)
+### seat.txt (file extended)
 
 <table>
   <tr>
