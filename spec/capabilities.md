@@ -12,7 +12,9 @@ GTFS-capabilities builds upon previously developed extension proposals to provid
 
 ## Requirements
 
-**GTFS-VehiclesCategories**. Optionally, **GTFS-VehicleAllocations** may be used to associate multiple vehicle categories with routes.
+**GTFS-VehiclesCategories**. Optionally, **GTFS-VehicleAllocations** may be used to associate multiple vehicle categories with routes. 
+
+For describing legal compliance, **requires** `urn_sets.txt` and `urns.txt` from [GTFS-eligibilities](https://github.com/full-path/gtfs-eligibilities).
 
 ## Files extended or added
 
@@ -25,8 +27,8 @@ GTFS-capabilities builds upon previously developed extension proposals to provid
 |`vehicle_categories.txt`|Extended|Adds granularity (modifies current extension) for mobility device capacity.|
 |`mobility_device_spaces.txt`|Added|Allows defining the different spaces available for mobility devices on a vehicle group.|
 |`seat_displacements.txt`|Added|Allows areas that can be used for multiple purposes to be identified and associated with seats they would displace.|
-|`urn_sets.txt`|Created|Adds ability for a vehicle category or capability to reference URNs for purposes of describing legal compliance|
-|`urns.txt`|Created|Provides additional information related to Uniform Resource Names (URNs)|
+|`urn_sets.txt`|Added|Adds ability for a vehicle category or capability to reference URNs for purposes of describing legal compliance|
+|`urns.txt`|Added|Provides additional information related to Uniform Resource Names (URNs)|
 
 ## File Definitions
 
