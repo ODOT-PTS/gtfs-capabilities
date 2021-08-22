@@ -25,7 +25,6 @@ GTFS-capabilities builds upon previously developed extension proposals to provid
 |`vehicle_categories.txt`|Extended|Adds granularity (modifies current extension) for mobility device capacity.|
 |`mobility_device_spaces.txt`|Added|Allows defining the different spaces available for mobility devices on a vehicle group.|
 |`space_overlaps.txt`|Added|Allows areas that can be used for multiple purposes to be identified and associated with seats they would displace.|
-|`seats.txt`|Extended|Adds ability to identify unique seats that are displaced by the use of a mobility device space.|
 |`urn_sets.txt`|Created|Adds ability for a vehicle category or capability to reference URNs for purposes of describing legal compliance|
 |`urns.txt`|Created|Provides additional information related to Uniform Resource Names (URNs)|
 
@@ -95,9 +94,3 @@ GTFS-capabilities builds upon previously developed extension proposals to provid
 | --- | --- |
 |`mobility_device_space_id`|(ID referencing `mobility_device_spaces.mobility_device_space_id`, **Required**) Identifies a mobility device space that displaces one or more seats. When a mobility device space displaces more than one seat, then multiple entries in seat_displacements.txt share the same mobility_device_space_id.|
 |`seat_id`|(ID referencing `seats.seat_id`, **Required**) Identifies a seat that would be displaced to make room for a by a seating area of a vehicle. When a seat may be displaced by more than one mobility device space (due to there being multiple possible vehicle configurations), then multiple entries in `seat_displacements.txt` share the same seat_id.|
-
-### seat.txt (file extended)
-|Field Name|Details|
-| --- | --- |
-|`mobility_device_space_id`|(ID referencing `mobility_device_spaces.mobility_device_space_id`, **Optional**) Provides more detailed information about a “seat” that is a space whose primary designation is for a rider who uses a mobility device.|
-|`seat_displacement_id`|(ID referencing `seat_displacements.seat_displacement_id`, **Required**) Identifies a set of one or more mobility device spaces that, if used, would displace the seat.|
