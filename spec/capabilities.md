@@ -24,7 +24,7 @@ GTFS-capabilities builds upon previously developed extension proposals to provid
 |`capabilities.txt`|Added|Provides fields related to services available to a rider from a person, such as a driver or other agency-provided human resource.|
 |`vehicle_categories.txt`|Extended|Adds granularity (modifies current extension) for mobility device capacity.|
 |`mobility_device_spaces.txt`|Added|Allows defining the different spaces available for mobility devices on a vehicle group.|
-|`space_overlaps.txt`|Added|Allows areas that can be used for multiple purposes to be identified and associated with seats they would displace.|
+|`seat_displacements.txt`|Added|Allows areas that can be used for multiple purposes to be identified and associated with seats they would displace.|
 |`urn_sets.txt`|Created|Adds ability for a vehicle category or capability to reference URNs for purposes of describing legal compliance|
 |`urns.txt`|Created|Provides additional information related to Uniform Resource Names (URNs)|
 
