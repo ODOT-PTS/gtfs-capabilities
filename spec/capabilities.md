@@ -12,7 +12,7 @@ GTFS-capabilities builds upon previously developed extension proposals to provid
 
 ## Requirements
 
-**GTFS-VehiclesCategories**. Optionally, **GTFS-VehicleAllocations** may be used to associate multiple vehicle categories with routes. 
+**[GTFS-VehiclesCategories](https://docs.google.com/document/d/156RiBjI6FnWJvO8_XWX11Q9nLdOiBdS_rilA-oamlv8/edit#heading=h.tosuo6e9e0z7)**. Optionally, **[GTFS-VehicleAllocations](https://docs.google.com/document/d/156RiBjI6FnWJvO8_XWX11Q9nLdOiBdS_rilA-oamlv8/edit#heading=h.6737jlfgdf6o)** may be used to associate multiple vehicle categories with routes. Also optionally, **[GTFS-seats](bit.ly/gtfs-seats)** may be used if relating mobility device spaces to specific seats.
 
 For describing legal compliance, **requires** `urn_sets.txt` and `urns.txt` from [GTFS-eligibilities](https://github.com/full-path/gtfs-eligibilities).
 
